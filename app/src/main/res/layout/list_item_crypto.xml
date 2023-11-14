@@ -35,7 +35,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name"
-        android:textSize="14sp"/>
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"/>
 
     <TextView
         android:id="@+id/explorerTextView"
@@ -44,7 +45,8 @@
         android:labelFor="@null"
         android:textSize="14sp"
         android:autoLink="web"
-        android:textColorLink="@color/blue_link"/>
+        android:textColorLink="@color/blue_link"
+        android:layout_marginTop="5dp"/>
 
     <TextView
         android:id="@+id/priceTextView"
